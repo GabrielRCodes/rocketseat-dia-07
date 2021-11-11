@@ -1,0 +1,37 @@
+npm init = Personalizando opções
+npm init -y = Tudo automático
+npm install <módulo> = O usado na áula foi o cfonts
+npm i <módulo> = Abreviação do install
+npm i <módulo> -D = Diz que o módulo é apenas de desenvolvimento
+É possível baixar vários de uma vez com: npm {i} ou {install} <módulo> <módulo> <módulo>
+npm update = atualiza as informações
+
+Não enviar node_modules para repositórios!
+
+Criar arquivo .gitignore na RAIZ DA PASTA!
+Colocar: node_modules/ = Dentro do arquivo!
+
+Não mexer no package-lock.json
+
+SCRIPTS
+
+npm run <script-name> (MAIS USADO)
+npm <script-name>
+
+PACOTE GLOBAL
+
+npm i <módulo> -g
+
+LOCALIZAR: npm root -g
+
+DESINSTALAR
+
+npm uninstall <pacote>
+npm uninstall <pacote> -g
+
+VERSIONAMENTO - major.minor.patch
+
+npm outdated = Ver todos os pacotes desatualizados
+
+npm upgrade = Atualizar todos os pacotes desatualizados
+
